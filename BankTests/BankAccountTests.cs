@@ -16,7 +16,7 @@ namespace BankTests
         public void Debit_WithValidAmount_UpdatesBalance(double debitAmount)
         {
             double beginningBalance = 11.99;
-            double debitAmount = 4.55;
+
             double expected = 7.44;
             BankAccountTests account = new BankAccountTests("Mr. Bryan Walton", beginningBalance);
             //Act
