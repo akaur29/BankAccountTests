@@ -19,7 +19,15 @@ namespace UnitTestProject1
             BankAccount account = new BankAccount("Mr.Bryan Walton", beginningBalance);
 
             //act
-            account.Debit(debitAmount);
+            try
+            {
+                account.Debit(debitAmount);
+            }
+            catch(ArgumentOutOfRangeException e)
+            {
+                StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
+            }
+
         }
 
     }

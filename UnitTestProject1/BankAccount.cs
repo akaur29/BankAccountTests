@@ -13,6 +13,8 @@ namespace UnitTestProject1
             this.beginningBalance = beginningBalance;
         }
 
+        public static string DebitAmountExceedsBalanceMessage { get; internal set; }
+
         internal void Debit(double debitAmount)
         {
             throw new NotImplementedException();
