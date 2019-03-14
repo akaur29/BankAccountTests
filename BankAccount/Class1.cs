@@ -1,6 +1,6 @@
 ﻿
 using System;
-/// NAME SONIA MANHAS(C0726358)
+////// NAME SONIA MANHAS(C0726358)
 /// NAME AMANDEEP KAUR(C0730499)
 
 namespace BankAccount
