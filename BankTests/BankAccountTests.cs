@@ -8,6 +8,7 @@ namespace BankTests
     {
         public BankAccountTests(string v, double beginningBalance)
         {
+
         }
 
         public double DebitBalance { get; private set; }
